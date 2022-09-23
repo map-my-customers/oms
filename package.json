@@ -1,6 +1,6 @@
 {
-  "name": "ts-overlapping-marker-spiderfier",
-  "version": "1.0.4",
+  "name": "@map-my-customers/ts-overlapping-marker-spiderfier",
+  "version": "1.0.6",
   "description": "Overlapping Marker Spiderfier",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chancezeus/oms.git"
+    "url": "git+https://github.com/map-my-customers/oms.git"
   },
   "scripts": {
     "clean": "rimraf ./dist",
@@ -26,10 +26,8 @@
     "build:packs": "rollup -c rollup.config.js",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {
-    "@types/google.maps": "^3.45.6"
-  },
   "devDependencies": {
+    "@types/google.maps": "^3.45.6",
     "rimraf": "^2.6.2",
     "rollup": "^0.56.2",
     "typescript": "^2.7.2"
